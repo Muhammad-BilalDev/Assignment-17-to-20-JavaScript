@@ -57,11 +57,11 @@
 // for(var i = 1; i <= 15; i = i+2){
 //     document.writeln(i)
 // }
- // part (d)
+// part (d)
 // for(var i = 0; i <= 15; i = i+2){
 //     document.writeln(i)
 // }
- // part (e)
+// part (e)
 // for(var i = 2; i <= 20; i = i+2){
 //     document.writeln(`${i}k,`)
 // }
@@ -70,12 +70,46 @@
 
 
 // Ans(7)
+// var getItemName = prompt("Welcom to abc bakery. what do you want to order sir/ma'am? ")
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var checker = false;
+// for (var i = 0; i < items.length; i++) {
+//     if (items[i] == getItemName) {
+//         checker = true
+//         document.write("cookie is available at index ", i, " ", "in our bakery")
+//         break
+//     }
+// }
+// if (checker == false) {
+//     document.write("We are sorry. ", getItemName ," is not available in our bakery")
+// }
+
+
+
+
 // Ans(8)
+// var number = [24, 53, 78, 91, 12];
+// var numberLenght = number[0]
 
-
+// for(var i = 0 ; i < number.length; i++){
+//     if(numberLenght <= number[i] ){
+//         numberLenght = number[i] 
+//     }
+// }
+// document.write(numberLenght)
 
 
 // Ans(9)
+// var number = [24, 53, 78, 91, 12];
+// var numberLenght = number[0]
+
+// for(var i = 0 ; i < number.length; i++){
+//     if(numberLenght >= number[i] ){
+//         numberLenght = number[i] 
+//     }
+// }
+// document.write(numberLenght)
+
 // Ans(10)
 // for (var i = 5; i <= 100; i += 5) {
 //     document.writeln(i);
